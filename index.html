@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="output.css" />
+  <title>Rock Paper Scissior game</title>
+</head>
+
+<body class="bg-[#222]">
+  <main>
+    <div
+      class="top_bar text-4xl md:text-5xl lg:text-6xl  font-extrabold text-center bg-linear-to-br from-[#fc5c7d] to-[#6a82fb] bg-clip-text text-transparent ">
+      Rock Paper
+      Scissor</div>
+    <div class="container flex items-center justify-center mt-10 md:mt-20 lg:mt-30 gap-10 hover:">
+      <button id="choice" class="rock" class="h-[25vmin] w-[25vmin] "><img
+          class="object-cover h-[24vmin] w-[24vmin] rounded-full" src="images/rock.png" /></button>
+      <button id="choice" class="paper" class="h-[25vmin] w-[25vmin]"><img
+          class="object-cover h-[24vmin] w-[24vmin] rounded-full" src="images/paper.png" /></button>
+      <button id="choice" class="scissor" class="h-[25vmin] w-[25vmin]"><img
+          class="object-cover h-[24vmin] w-[24vmin] rounded-full" src="images/scissors.png" /></button>
+    </div>
+    <div
+      class="scores flex gap-10 items-center justify-center text-3xl md:text-4xl lg:text-4xl font-bold bg-linear-to-br from-[#fc5c7d] to-[#6a82fb] bg-clip-text text-transparent mt-20 ">
+      <div class="you flex gap-5">
+        <p class="your-score">0</p>
+        <p>You</p>
+      </div>
+      <div class="you flex gap-5">
+        <p id="comp-score">0</p>
+        <p>Comp</p>
+      </div>
+    </div>
+    </div>
+    <div class="msg-two">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
